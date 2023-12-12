@@ -64,7 +64,7 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
-        <Row>
+        {/* <Row>
           <Col md={8} className="home-about-description2">
             <h1 style={{ fontSize: "2.6em" }}>
               <span className="purple"> Skills </span>
@@ -135,7 +135,7 @@ function Home2() {
               Proficient in Mac and Linux environments.
             </p>
           </Col>
-        </Row>
+        </Row> */}
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
