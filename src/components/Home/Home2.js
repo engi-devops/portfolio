@@ -1,0 +1,183 @@
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import myImg from "../../Assets/avatar.svg";
+import Tilt from "react-parallax-tilt";
+import {
+  AiFillGithub,
+  AiOutlineTwitter,
+  AiFillInstagram,
+} from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
+
+function Home2() {
+  return (
+    <Container fluid className="home-about-section" id="about">
+      <Container>
+        <Row>
+          <Col md={8} className="home-about-description">
+            <h1 style={{ fontSize: "2.6em" }}>
+              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+            </h1>
+            <p className="home-about-body">
+              I fell in love with programming and I have at least learnt
+              something, I think… 🤷‍♂️
+              <br />
+              <br />I am Experienced backend software engineer with over 5 years of expertise, specializing in Node.js development and proficient in cloud technologies such as AWS and GCP. Adept at designing and optimizing SQL databases for scalable and efficient backend solutions.
+              <i>
+                <b className="purple"> Javascript, Typescript, Node.js </b>
+              </i>
+              <br />
+              <br />
+              My field of Interest's are building new &nbsp;
+              <i>
+                <b className="purple">BackEnd Developent and Cloud </b> and
+                also in areas related to{" "}
+                <b className="purple">
+                  Software Services.
+                </b>
+              </i>
+              <br />
+              <br />
+              Whenever possible, I also apply my passion for developing products
+              with <b className="purple">Node.js</b> and
+              <i>
+                <b className="purple">
+                  {" "}
+                  Cloud Services
+                </b>
+              </i>
+              &nbsp; like
+              <i>
+                <b className="purple"> AWS and GCP</b>
+              </i>
+
+              <br />
+              <br />
+              If you're interested in leveraging these skills for your project, I invite you to reach out. I'm enthusiastic about discussing how I can contribute to and elevate your team. Feel free to drop me a message  <i>
+                <b className="purple"> I'm looking forward to the opportunity!</b>
+              </i>
+            </p>
+          </Col>
+          <Col md={4} className="myAvtar">
+            <Tilt>
+              <img src={myImg} className="img-fluid" alt="avatar" />
+            </Tilt>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={8} className="home-about-description2">
+            <h1 style={{ fontSize: "2.6em" }}>
+              <span className="purple"> Skills </span>
+            </h1>
+            <p className="home-about-body">
+              Node.js | Nest.js:
+              <br />
+              Expertise in developing efficient server-side applications.
+            </p>
+
+            <p className="home-about-body">
+              AWS | AwsLambda | SQS | SNS:
+              <br />
+              Proficient in leveraging Amazon Web Services for scalable solutions.
+            </p>
+
+            <p className="home-about-body">
+              Express.js:
+              <br />
+              Proficient in building RESTful APIs for seamless communication.
+            </p>
+
+            <p className="home-about-body">
+              Databases:
+              <br />
+              Management of MongoDB, PostgreSQL, and MySQL databases.
+            </p>
+
+            <p className="home-about-body">
+              Typescript:
+              <br />
+              Utilizing TypeScript to write robust and maintainable code.
+            </p>
+
+            <p className="home-about-body">
+              Git Platforms:
+              <br />
+              Proficient in version control systems like GitHub, Bit Bucket, GitLab.
+            </p>
+
+            <p className="home-about-body">
+              Containerization:
+              <br />
+              Experience with Docker for efficient application containerization.
+            </p>
+
+            <p className="home-about-body">
+              Project Management:
+              <br />
+              Efficient use of tools like Trello and Jira for project organization.
+            </p>
+
+            <p className="home-about-body">
+              Development Environments:
+              <br />
+              Familiarity with VS Code and other development tools.
+            </p>
+
+            <p className="home-about-body">
+              AWS Services:
+              <br />
+              Handling AWS resources, such as EC2 instances and S3 buckets.
+            </p>
+
+            <p className="home-about-body">
+              Operating Systems:
+              <br />
+              Proficient in Mac and Linux environments.
+            </p>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={12} className="home-about-social">
+            <h1>FIND ME ON</h1>
+            <p>
+              Feel free to <span className="purple">connect </span>with me
+            </p>
+            <ul className="home-about-social-links">
+              <li className="social-icons">
+                <a
+                  href="https://github.com/devOps-Code-Commit"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiFillGithub />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://twitter.com/singhengineer_"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiOutlineTwitter />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.linkedin.com/in/backend-software-engineer-singhsantosh/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaLinkedinIn />
+                </a>
+              </li>
+            </ul>
+          </Col>
+        </Row>
+      </Container>
+    </Container>
+  );
+}
+export default Home2;
