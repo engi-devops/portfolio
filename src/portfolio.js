@@ -21,10 +21,10 @@ const seo = {
 const greeting = {
   title: "Santosh Singh",
   logo_name: "SantoshSingh",
-  nickname: "Santosh",
+  nickname: "",
   subTitle:
     // "I am Experienced backend software engineer with over 5 years of expertise, specializing in Node.js development and proficient in cloud technologies such as AWS and GCP. Adept at designing and optimizing SQL databases for scalable and efficient backend solutions.",
-    "Backend Software Engineer",
+    "( Backend Software Engineer )",
   resumeLink:
     "https://drive.google.com/file/d/1pnNHRR9xyR4o7KVg3oGIILwVV3IfppIG/view",
   portfolio_repository: "https://github.com/devOps-Code-Commit",
