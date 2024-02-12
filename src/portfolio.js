@@ -26,7 +26,7 @@ const greeting = {
     // "I am Experienced backend software engineer with over 5 years of expertise, specializing in Node.js development and proficient in cloud technologies such as AWS and GCP. Adept at designing and optimizing SQL databases for scalable and efficient backend solutions.",
     "Backend Software Engineer",
   resumeLink:
-    "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
+    "https://drive.google.com/file/d/1pnNHRR9xyR4o7KVg3oGIILwVV3IfppIG/view",
   portfolio_repository: "https://github.com/devOps-Code-Commit",
   githubProfile: "https://github.com/devOps-Code-Commit",
 };
@@ -129,6 +129,13 @@ const skills = {
             color: "#2C8EBB",
           },
         },
+        {
+          skillName: "Socket.io",
+          fontAwesomeClassname: "simple-icons:socketdotio",
+          style: {
+            color: "#2C8EBB",
+          },
+        },
       ],
     },
     {
@@ -166,13 +173,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:docker",
           style: {
             color: "#1488C6",
-          },
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
           },
         },
       ],
