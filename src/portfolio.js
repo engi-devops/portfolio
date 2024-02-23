@@ -21,14 +21,14 @@ const seo = {
 const greeting = {
   title: "Santosh Singh",
   logo_name: "SantoshSingh",
-  nickname: "",
+  // nickname: "",
   subTitle:
     // "I am Experienced backend software engineer with over 5 years of expertise, specializing in Node.js development and proficient in cloud technologies such as AWS and GCP. Adept at designing and optimizing SQL databases for scalable and efficient backend solutions.",
-    "( Backend Software Engineer )",
+    "(Backend Software Engineer | Code Architect | Database Maestro)",
   resumeLink:
     "https://drive.google.com/file/d/1pnNHRR9xyR4o7KVg3oGIILwVV3IfppIG/view",
-  portfolio_repository: "https://github.com/devOps-Code-Commit",
-  githubProfile: "https://github.com/devOps-Code-Commit",
+  portfolio_repository: "https://github.com/engi-devops",
+  githubProfile: "https://github.com/engi-devops",
 };
 
 const socialMediaLinks = [
@@ -73,9 +73,9 @@ const skills = {
       title: "Backend Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Responsible for developing efficient server-side logic, ensuring optimal performance, and maintaining responsiveness to front-end requests.",
-        "⚡ Proficient in a diverse tech stack including Node.js, PostgreSQL, MongoDB, Redis, and socket.io.",
-        "⚡ Efficiently uNlized Git pla]orms, Docker for containerizaNon, and project management tools in day-to-day operaNons",
+        "⚡ Tasked with crafting efficient server-side logic to guarantee optimal performance and seamless responsiveness to front-end requests.",
+        "⚡ Proficient across a diverse tech stack encompassing Node.js, PostgreSQL, MongoDB, Redis, Firebase and socket.io.",
+        "⚡ Utilized Git platforms, Docker for containerization, and project management tools proficiently in day-to-day operations, enhancing productivity and collaboration.",
       ],
       softwareSkills: [
         {
@@ -142,9 +142,9 @@ const skills = {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Extensive experience navigating multiple cloud platforms, adept at leveraging their respective strengths.",
+        "⚡ Proficient in hosting and maintaining websites on virtual machine instances, seamlessly integrating databases for enhanced functionality.",
+        "⚡ Skilled in setting up streamlined streaming jobs between databases and servers, both on GCP and AWS, ensuring efficient data flow and synchronization.",
       ],
       softwareSkills: [
         {
@@ -380,10 +380,10 @@ const certifications = {
 
 // Experience Page
 const experience = {
-  title: "Experience",
-  subtitle: "Work",
+  title: "Work Experience",
+  // subtitle: "Work",
   description:
-    "I have worked with many evolving startups as Software Backend Developer and Software Architect. Experienced backend software engineer with over 5 years of expertise, specializing in Node.js development and proficient in cloud technologies such as AWS and GCP. Adept at designing and optimizing SQL databases for scalable and efficient backend solutions.",
+    "I've collaborated with numerous dynamic startups as both a Software Backend Developer and Software Architect. With over 5 years of hands-on experience, I specialize in Node.js development and boast proficiency in cloud technologies like AWS and GCP. My expertise lies in designing and optimizing SQL databases to create scalable and efficient backend solutions.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -398,7 +398,7 @@ const experience = {
           duration: "Dec 2020 - Now",
           location: "Bengaluru, Karnataka",
           description:
-            "Seasoned professional with expertise in implementing robust business logic, crafting APIs, and managing databases. Responsible for developing efficient server-side logic, ensuring optimal performance, and maintaining responsiveness to front-end requests. Keen eye for detail and ability to create seamless integrations between backend and frontend systems to contribute to project success.",
+            "Accomplished professional renowned for implementing robust business logic, crafting APIs, and adeptly managing databases. Tasked with developing efficient server-side logic, I ensure optimal performance and unwavering responsiveness to front-end requests. With a keen eye for detail, I specialize in creating seamless integrations between backend and frontend systems, thereby contributing significantly to project success.",
           color: "#0879bf",
         },
         {
@@ -420,7 +420,7 @@ const experience = {
           duration: "Sept 2018 - Oct 2019",
           location: "Ahmedabad, Gujarat",
           description:
-            "Demonstrated excepNonal performance throughout the entire web application lifecycle, from development to deployment. Played a key role in monitoring applications, ensuring stability and achieving successful outcomes. Leveraged version control systems like GitHub, Bit Bucket, and GitLab to facilitate efficient collaboration.",
+            "Consistently delivered exceptional performance across the entire web application lifecycle, from initial development to seamless deployment. Played a pivotal role in monitoring applications, ensuring stability, and consistently achieving successful outcomes. Leveraged top-tier version control systems such as GitHub, Bit Bucket, and GitLab to foster efficient collaboration and streamline development processes.",
           color: "#fc1f20",
         },
       ],
@@ -494,7 +494,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "SantoshImg.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Backend Developmemt.",
+      "I'm accessible across various social media platforms. Drop me a message, and I'll get back to you within 24 hours. Need assistance with Backend Development?.",
   },
   addressSection: {
     title: "Address",
