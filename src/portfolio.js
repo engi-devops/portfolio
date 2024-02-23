@@ -498,7 +498,8 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle: "179 SaiKutir Residency at bagumara Ta- palsana, Surat (394305)",
+    subtitle:
+      "179-SaiKutir Society, Near Bagumara Naher, Ta-palsana, Surat, Gujarat - 394305",
     locality: "Kanodar",
     country: "IN",
     region: "Gujarat",
