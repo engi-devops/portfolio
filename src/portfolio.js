@@ -26,7 +26,7 @@ const greeting = {
     // "I am Experienced backend software engineer with over 5 years of expertise, specializing in Node.js development and proficient in cloud technologies such as AWS and GCP. Adept at designing and optimizing SQL databases for scalable and efficient backend solutions.",
     "(Backend Software Engineer | Code Architect | Database Maestro)",
   resumeLink:
-    "https://drive.google.com/file/d/1pnNHRR9xyR4o7KVg3oGIILwVV3IfppIG/view",
+    "https://drive.google.com/file/d/1n05I-MqGziLl_reA6Bpj511KVDfp-BYT/view",
   portfolio_repository: "https://github.com/engi-devops",
   githubProfile: "https://github.com/engi-devops",
 };
@@ -308,7 +308,7 @@ const certifications = {
       subtitle: "- Kim Akers",
       logo_path: "microsoft_logo.png",
       certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
+        "https://drive.google.com/file/d/1n05I-MqGziLl_reA6Bpj511KVDfp-BYT/view",
       alt_name: "Microsoft",
       color_code: "#D83B0199",
     },
@@ -362,7 +362,7 @@ const certifications = {
       subtitle: "- Saurabh Mukhopadhyay",
       logo_path: "nptel_logo.png",
       certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
+        "https://drive.google.com/file/d/1n05I-MqGziLl_reA6Bpj511KVDfp-BYT/view",
       alt_name: "NPTEL",
       color_code: "#FFBB0099",
     },
