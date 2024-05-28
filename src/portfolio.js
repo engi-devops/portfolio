@@ -24,7 +24,7 @@ const greeting = {
   // nickname: "",
   subTitle:
     // "I am Experienced backend software engineer with over 5 years of expertise, specializing in Node.js development and proficient in cloud technologies such as AWS and GCP. Adept at designing and optimizing SQL databases for scalable and efficient backend solutions.",
-    "(Backend Software Engineer | Code Architect | Database Maestro)",
+    "(Backend Software Engineer | Database Maestro | Code Architect)",
   resumeLink:
     "https://drive.google.com/file/d/1n05I-MqGziLl_reA6Bpj511KVDfp-BYT/view",
   portfolio_repository: "https://github.com/engi-devops",
